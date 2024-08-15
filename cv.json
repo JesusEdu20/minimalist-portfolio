@@ -1,0 +1,406 @@
+{
+    "basics": {
+      "name": "Jesus Castillo",
+      "label": "Desarrollador con experiencia práctica en tecnologías web tanto en front-end como en back-end desde hace dos años",
+      "image": "https://avatars.githubusercontent.com/u/101497088?v=4",
+      "email": "jesuseduardocast18@gmail.com",
+      "phone": "(412) 996-9858",
+      "url": "",
+      "summary": "Actualmente, estoy cursando estudios de informática en una universidad técnica, con el objetivo de obtener mi título en ingeniería, mientras trabajo como freelance desarrollando aplicaciones web. Vivo en el estado Lara Venezuela. A día de hoy me encuentro desarrollando una página para una empresa de transporte en República Dominicana. También he desarrollado 'Bee', un bot de Slack integrado con la API de Notion para automatizar la gestión de clientes y equipos de trabajo en una empresa de marketing de redes sociales.",
+      "location": {
+        "address": "Barquisimeto Lara Cabudare",
+        "postalCode": null,
+        "city": "Lara",
+        "countryCode": "+58",
+        "region": "Barquisimeto"
+      },
+      "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "jesus-castillo",
+        "url": "https://www.linkedin.com/in/jesus-castillo-587805256/"
+      },
+      {
+        "network": "GitHub",
+        "username": "JesusEdu20",
+        "url": "https://github.com/JesusEdu20"
+      }
+    ]
+    },
+    "work": [{
+      "name": "Ubix Technology",
+      "position": "Freelance Web Developer",
+      "url": "https://ubix.vercel.app/",
+      "startDate": "2024-02-01",
+      "endDate": null,
+      "summary": "Desarrollo de una página web para una aplicación móvil de transporte en República Dominicana, utilizando Astro e integrando la API de Google Maps para habilitar la funcionalidad de cotización de viajes",
+      "highlights": [
+        "Started the company"
+      ]
+    }, 
+    {
+      "name": "Darius Marketing",
+      "position": "Automation Developer",
+      "url": "https://dariusagency.com/",
+      "startDate": "2023-02-01",
+      "endDate": "2024-04-15",
+      "summary": "1. Desarrollé un bot de Slack utilizando Bolt para JavaScript, integrado con la API de Notion, para optimizar la gestión de publicaciones en redes sociales de más de 100 clientes. 2. Automatización del registro de publicaciones por parte de los Community Managers, y asignación de equipos y notificaciones automáticas al registrar nuevos clientes. 3. Implementé funciones para el seguimiento del progreso de publicaciones y la generación de informes detallados, enviados automáticamente a los supervisores por correo.",
+      "highlights": [
+        "Started the company"
+      ]
+    },
+    {
+      "name": "Telemic",
+      "position": "Support Agent",
+      "url": "https://inter.com.ve/",
+      "startDate": "2021-02-01",
+      "endDate": "2022-04-15",
+      "summary": "Trabajé como agente de soporte, participando activamente en la resolución de problemas de los usuarios para diversos productos de la empresa, como servicios de Internet, fibra óptica, televisión por cable y televisión satelital. Esta experiencia fortaleció mis habilidades comunicativas, tanto orales como escritas, y me permitió desarrollar la capacidad de trabajar eficientemente bajo métricas de productividad y cumplir con objetivos establecidos, mejorando mi habilidad para colaborar en equipo y alcanzar metas de rendimiento.",
+      "highlights": [
+        "Started the company"
+      ]
+    }
+  ],
+    "volunteer": [{
+      "organization": "Organization",
+      "position": "Volunteer",
+      "url": "https://organization.com/",
+      "startDate": "2012-01-01",
+      "endDate": "2013-01-01",
+      "summary": "Description…",
+      "highlights": [
+        "Awarded 'Volunteer of the Month'"
+      ]
+    }],
+    "education": [{
+      "institution": "University",
+      "url": "https://www.iujobarquisimeto.edu.ve/",
+      "area": "Software Development",
+      "studyType": "Bachelor",
+      "startDate": "2024-00-00",
+      "endDate": null,
+      "score": null,
+      "courses": [
+        "DB1101 - Basic SQL"
+      ]
+    }],
+    "awards": [{
+      "title": "Award",
+      "date": "2014-11-01",
+      "awarder": "Company",
+      "summary": "There is no spoon."
+    }],
+    "certificates": [{
+      "name": "Animaciones con css",
+      "date": "2022-27-07",
+      "issuer": "Platzi",
+      "url": "https://drive.google.com/file/d/1xMLPC4XtKzR7wyfbtWnPp0bsrbEKWHZN/view?usp=sharing"
+    },
+    {
+      "name": "Consumo de api rest con javaScript",
+      "date": "2022-17-02",
+      "issuer": "Platzi",
+      "url": "https://drive.google.com/file/d/18viKn91ZCPNjBFwO8NBwTCtj7S_qPWjJ/view?usp=sharing"
+    },
+    {
+        "name": "Curso básico de Javascript",
+        "date": "2022-03-03",
+        "issuer": "Platzi",
+        "url": "https://drive.google.com/file/d/1a0CkY_ZJUI12-J_BGOpw3h4Wna9iGHWl/view?usp=sharing"
+    },
+    {
+        "name": "CSS grid",
+        "date": "2022-22-06",
+        "issuer": "Platzi",
+        "url": "https://drive.google.com/file/d/1p-zDbSLwJettO9j19qFyz013vbUmmfc0/view?usp=sharing"
+    },
+    {
+        "name": "ECMASCRIPT: Historia y versiones de JavaScript",
+        "date": "2022-22-06",
+        "issuer": "Platzi",
+        "url": "https://drive.google.com/file/d/1bYB64pXY99WL6eP1VNoBHdPu6VwSmzcn/view?usp=sharing"
+    },
+    {
+        "name": "Curso profesional de Git y Github",
+        "date": "2022-25-03",
+        "issuer": "Platzi",
+        "url": "https://drive.google.com/file/d/1YLCqGlcBB-o8POUMbeOwmzxvUkYtgFWE/view?usp=sharing"
+    },
+    {
+        "name": "Introducción a la web: Historia y funcionamiento de internet",
+        "date": "2022-26-03",
+        "issuer": "Platzi",
+        "url": "https://drive.google.com/file/d/12gG_NkskmBFlrAO64dh02nh6eIB_PizD/view?usp=sharing"
+    },
+    {
+        "name": "Taller de videojuegos",
+        "date": "2024-03-01",
+        "issuer": "Platzi",
+        "url": "https://drive.google.com/file/d/1xJvVGewnV6usbl28G2UYooiMDqrUocUP/view?usp=sharing"
+    },
+    {
+        "name": "Maquetación en css",
+        "date": "2023-17-09",
+        "issuer": "Platzi",
+        "url": "https://drive.google.com/file/d/1xJvVGewnV6usbl28G2UYooiMDqrUocUP/view?usp=sharing"
+    },
+    {
+        "name": "Maquetación en css",
+        "date": "2023-17-09",
+        "issuer": "Platzi",
+        "url": "https://drive.google.com/file/d/1xJvVGewnV6usbl28G2UYooiMDqrUocUP/view?usp=sharing"
+    },
+    {
+        "name": "Consumo de API rest con JavaScript",
+        "date": "2024-03-02",
+        "issuer": "Platzi",
+        "url": "https://drive.google.com/file/d/1QUQA4dnLxf2Ne__NRRP1-RVeUeVwJQWM/view?usp=sharing"
+    },
+    {
+        "name": "Manipulación de arrays en JavaScript",
+        "date": "2024-08-01",
+        "issuer": "Platzi",
+        "url": "https://drive.google.com/file/d/1xuIjtoC9jHwVXnpZ8RTxnEd---Ggso8k/view?usp=sharing"
+    },
+    {
+        "name": "Programación básica",
+        "date": "2022-28-03",
+        "issuer": "Platzi",
+        "url": "https://drive.google.com/file/d/1lI63Vob-lw9bEKXlmS2KIAQeqQ2hA8_-/view?usp=sharing"
+    },
+    {
+        "name": "CSS Grid Layout",
+        "date": "2023-24-09",
+        "issuer": "Platzi",
+        "url": "https://drive.google.com/file/d/1IcdwbsSdVBfYiKekE8nhY0ma2mUnBX8P/view?usp=sharing"
+    },
+    {
+        "name": "Frontend Developer",
+        "date": "2022-10-03",
+        "issuer": "Platzi",
+        "url": "https://drive.google.com/file/d/1ToXt6w_p805_V_1lnTjXsRbkLGtadE5e/view?usp=sharing"
+    },
+    {
+        "name": "HTML Y CSS",
+        "date": "2022-10-04",
+        "issuer": "Platzi",
+        "url": "https://drive.google.com/file/d/1cM6f6BKwRm1kJQmOpDrZ6DIYUzUD3V1K/view?usp=sharing"
+    },
+    {
+        "name": "Closures y Scope en javaScript",
+        "date": "2022-19-07",
+        "issuer": "Platzi",
+        "url": "https://drive.google.com/file/d/1VrLM1JcWw5gKpM8eEje52flND5UHgU2r/view?usp=sharing"
+    },
+    {
+        "name": "Programación orientada a objetos",
+        "date": "2023-19-09",
+        "issuer": "Platzi",
+        "url": "https://drive.google.com/file/d/1oF4cYRsH6kP-rWl0KGPt364tWMHYG636/view?usp=sharing"
+    },
+    {
+        "name": "Programación orientada a objetos",
+        "date": "2023-19-09",
+        "issuer": "Platzi",
+        "url": "https://drive.google.com/file/d/1oF4cYRsH6kP-rWl0KGPt364tWMHYG636/view?usp=sharing"
+    },
+    {
+        "name": "Asincronismo con JavaScript",
+        "date": "2023-07-01",
+        "issuer": "Platzi",
+        "url": "https://drive.google.com/file/d/1qh-0ZB3YOHVgyZRNXfk6mayetNskZPLN/view?usp=sharing"
+    },
+    {
+        "name": "Computación básica",
+        "date": "2022-18-02",
+        "issuer": "Platzi",
+        "url": "https://drive.google.com/file/d/1ZnLwXYlWPCK8AimnojH-cGT_EQ0QVhKF/view?usp=sharing"
+    },
+    {
+        "name": "Frontend Developer",
+        "date": "2022-18-02",
+        "issuer": "Platzi",
+        "url": "https://drive.google.com/file/d/1bFLoJSKkVrrqiGboRkHBIUXjFmTxGO9j/view?usp=sharing"
+    },
+    {
+        "name": "JavaScript Engine V8 y el Navegador",
+        "date": "2023-12-02",
+        "issuer": "Platzi",
+        "url": "https://drive.google.com/file/d/1xgz7rKYZd1Gh1sMBdygjH8E1eLfzfXG0/view?usp=sharing"
+    },
+    {
+        "name": "Javascript: Matemáticas y estadísticas básicas",
+        "date": "2023-02-08",
+        "issuer": "Platzi",
+        "url": "https://drive.google.com/file/d/1k060Wgi23neka7FPOX9L2ikJeD_jbwys/view?usp=sharing"
+    },
+    {
+        "name": "Responsive design: Maquetación Mobile Firts",
+        "date": "2022-29-06",
+        "issuer": "Platzi",
+        "url": "https://drive.google.com/file/d/1zPKv9LQKuIHo6GCUBM0B1UC3yY6jgZmo/view?usp=sharing"
+    },
+    {
+        "name": "Introducción a la terminal y línea de comandos",
+        "date": "2022-19-06",
+        "issuer": "Platzi",
+        "url": "https://drive.google.com/file/d/1KnV6L-L0iOvGb8670juTuIlv0dLMIUWG/view?usp=sharing"
+    }
+    ],
+    "publications": [{
+      "name": "Publication",
+      "publisher": "Company",
+      "releaseDate": "2014-10-01",
+      "url": "https://publication.com",
+      "summary": "Description…"
+    }],
+    "skills": [{
+      "name": "HTML",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web", "Frontend"
+      ]
+    }, 
+    {
+        "name": "CSS",
+        "level": "Master",
+        "keywords": [
+           "Desarrollo Web", "Frontend", "Diseño Responsive"
+        ]
+    },
+    {
+        "name": "JavaScript",
+        "level": "Master",
+        "keywords": [
+          "Desarrollo Web", "Frontend", "Backend", "Fullstack"
+        ]
+    },
+    {
+        "name": "TypeScript",
+        "level": "Avanzado",
+        "keywords": [
+          "Desarrollo Web", "Frontend", "Backend", "JavaScript Superset"
+        ]
+    },
+    {
+        "name": "Node",
+        "level": "Avanzado",
+        "keywords": [
+          "Desarrollo Web", "Backend", "JavaScript", "Servidor"
+        ]
+    },
+    {
+        "name": "Git",
+        "level": "Avanzado",
+        "keywords": [
+          "Control de Versiones", "Colaboración", "Código Fuente"
+        ]
+    },
+    {
+        "name": "GitHub",
+        "level": "Avanzado",
+        "keywords": [
+          "Control de Versiones", "Colaboración", "Código Fuente", "Git"
+        ]
+    },
+    {
+        "name": "Next.js",
+        "level": "Intermedio",
+        "keywords": [
+          "Desarrollo Web", "Frontend", "React Framework", "SSR", "Static Generation"
+        ]
+    },
+    {
+        "name": "React",
+        "level": "Avanzado",
+        "keywords": [
+          "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
+        ]
+    }
+  
+    ],
+    "languages": [{
+      "language": "Español",
+      "fluency": "Native speaker"
+    },{
+      "language": "Inglés",
+      "fluency": "Básico"
+    }],
+    "interests": [{
+      "name": "Wildlife",
+      "keywords": [
+        "Ferrets",
+        "Unicorns"
+      ]
+    }],
+    "references": [{
+      "name": "Jane Doe",
+      "reference": "Reference…"
+    }],
+    "projects": [{
+      "isActive": true,
+      "name": "Ubix",
+      "startDate": "2024-01-08",
+      "endDate": null,
+      "description": "Página web para una aplicación de taxis, con la funcionalidad de cotizar viajes usando la API de Google Maps",
+      "highlights": [
+        "Won award at AIHacks 2016"
+      ],
+      "url": "https://ubix.vercel.app/"
+    }, 
+    {
+      "isActive": true,
+      "name": "Ubix",
+      "startDate": "2024-01-08",
+      "endDate": null,
+      "description": "Página web para una aplicación de taxis, con la funcionalidad de cotizar viajes usando la API de Google Maps",
+      "highlights": [
+        "Won award at AIHacks 2016"
+      ],
+      "url": "https://ubix.vercel.app/"
+    }, 
+    {
+      "isActive": true,
+      "name": "Ubix",
+      "startDate": "2024-01-08",
+      "endDate": null,
+      "description": "Página web para una aplicación de taxis, con la funcionalidad de cotizar viajes usando la API de Google Maps",
+      "highlights": [
+        "Won award at AIHacks 2016"
+      ],
+      "url": "https://ubix.vercel.app/"
+    }, 
+    {
+      "isActive": true,
+      "name": "Ubix",
+      "startDate": "2024-01-08",
+      "endDate": null,
+      "description": "Página web para una aplicación de taxis, con la funcionalidad de cotizar viajes usando la API de Google Maps",
+      "highlights": [
+        "Won award at AIHacks 2016"
+      ],
+      "url": "https://ubix.vercel.app/"
+    }, 
+    {
+      "isActive": true,
+      "name": "Ubix",
+      "startDate": "2024-01-08",
+      "endDate": null,
+      "description": "Página web para una aplicación de taxis, con la funcionalidad de cotizar viajes usando la API de Google Maps",
+      "highlights": [
+        "Won award at AIHacks 2016"
+      ],
+      "url": "https://ubix.vercel.app/"
+    }, 
+    {
+      "isActive": true,
+      "name": "Ubix",
+      "startDate": "2024-01-08",
+      "endDate": null,
+      "description": "Página web para una aplicación de taxis, con la funcionalidad de cotizar viajes usando la API de Google Maps",
+      "highlights": [
+        "Won award at AIHacks 2016"
+      ],
+      "url": "https://ubix.vercel.app/"
+    }]
+  }
