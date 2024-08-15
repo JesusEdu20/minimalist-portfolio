@@ -3,7 +3,7 @@ import Section from "../section.astro";
 import { skills } from '@cv'
 ---
 
-<Section title="Skills">
+<Section title="Skills" className="skill-section">
     <ul>
         {
             skills.map(({ name }) => {
@@ -34,4 +34,15 @@ import { skills } from '@cv'
         font-weight: 500;
         padding: 0.2rem 0.6rem;
     }
+
+  
+</style>
+<style is:global>
+      @media print {
+       
+       .skill-section {
+          page-break-inside: avoid;
+        }
+      
+  }
 </style>

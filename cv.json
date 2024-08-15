@@ -44,7 +44,7 @@
       "url": "https://dariusagency.com/",
       "startDate": "2023-02-01",
       "endDate": "2024-04-15",
-      "summary": "1. Desarrollé un bot de Slack utilizando Bolt para JavaScript, integrado con la API de Notion, para optimizar la gestión de publicaciones en redes sociales de más de 100 clientes. 2. Automatización del registro de publicaciones por parte de los Community Managers, y asignación de equipos y notificaciones automáticas al registrar nuevos clientes. 3. Implementé funciones para el seguimiento del progreso de publicaciones y la generación de informes detallados, enviados automáticamente a los supervisores por correo.",
+      "summary": "Desarrollé un bot de Slack utilizando Bolt para JavaScript, integrado con la API de Notion, para optimizar la gestión de publicaciones en redes sociales de más de 100 clientes. Automatización del registro de publicaciones por parte de los Community Managers, y asignación de equipos y notificaciones automáticas al registrar nuevos clientes. Implementé funciones para el seguimiento del progreso de publicaciones y la generación de informes detallados, enviados automáticamente a los supervisores por correo.",
       "highlights": [
         "Started the company"
       ]
@@ -350,63 +350,43 @@
       "endDate": null,
       "description": "Página web para una aplicación de taxis, con la funcionalidad de cotizar viajes usando la API de Google Maps",
       "highlights": [
-        "Won award at AIHacks 2016"
+        "App de transporte",
+        "Pagina web",
+        "Con la posibilidad de cotizar viajes",
+        "Google Maps API"
       ],
       "url": "https://ubix.vercel.app/"
     }, 
     {
       "isActive": true,
-      "name": "Ubix",
+      "name": "Bee",
       "startDate": "2024-01-08",
       "endDate": null,
-      "description": "Página web para una aplicación de taxis, con la funcionalidad de cotizar viajes usando la API de Google Maps",
+      "description": "Desarrollé un bot de Slack con Bolt y Notion que automatiza el registro de publicaciones, asigna equipos, y genera informes automáticos para supervisores por correo.",
       "highlights": [
-        "Won award at AIHacks 2016"
+        "+100 clientes",
+        "Slack",
+        "Bolt",
+        "JavaScript",
+        "Node",
+        "Notion API"
       ],
-      "url": "https://ubix.vercel.app/"
+      "url": ""
     }, 
     {
       "isActive": true,
-      "name": "Ubix",
+      "name": "Jungle Boy",
       "startDate": "2024-01-08",
       "endDate": null,
-      "description": "Página web para una aplicación de taxis, con la funcionalidad de cotizar viajes usando la API de Google Maps",
+      "description": "Mini juego",
       "highlights": [
-        "Won award at AIHacks 2016"
+        "Canvas",
+        "Desarrollo desde 0",
+        "Vanilla JavaScript",
+        "Patrones de diseño",
+        "POO"
       ],
-      "url": "https://ubix.vercel.app/"
-    }, 
-    {
-      "isActive": true,
-      "name": "Ubix",
-      "startDate": "2024-01-08",
-      "endDate": null,
-      "description": "Página web para una aplicación de taxis, con la funcionalidad de cotizar viajes usando la API de Google Maps",
-      "highlights": [
-        "Won award at AIHacks 2016"
-      ],
-      "url": "https://ubix.vercel.app/"
-    }, 
-    {
-      "isActive": true,
-      "name": "Ubix",
-      "startDate": "2024-01-08",
-      "endDate": null,
-      "description": "Página web para una aplicación de taxis, con la funcionalidad de cotizar viajes usando la API de Google Maps",
-      "highlights": [
-        "Won award at AIHacks 2016"
-      ],
-      "url": "https://ubix.vercel.app/"
-    }, 
-    {
-      "isActive": true,
-      "name": "Ubix",
-      "startDate": "2024-01-08",
-      "endDate": null,
-      "description": "Página web para una aplicación de taxis, con la funcionalidad de cotizar viajes usando la API de Google Maps",
-      "highlights": [
-        "Won award at AIHacks 2016"
-      ],
-      "url": "https://ubix.vercel.app/"
-    }]
+      "url": "https://jesusedu20.github.io/Jungle-boy-game/"
+    }
+    ]
   }

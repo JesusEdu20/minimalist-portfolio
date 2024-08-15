@@ -12,7 +12,7 @@ import { basics } from '@cv'
 const { name, label } = basics
 ---
 
-<Layout title = {`Portafolio de ${name} ${label}`}>
+<Layout title = {`Portafolio de ${name}`} label={label}>
 	<main>
 
 		<Hero></Hero>
@@ -38,5 +38,9 @@ const { name, label } = basics
 			min-width: 320px;
 			padding: 2rem;
 		}
+	}
+
+	@media print {
+		
 	}
 </style>
