@@ -90,6 +90,7 @@ const printInfo = [ email, phone, linkedUrl].filter(Boolean).join(`&bull`)
     align-items: center;
     justify-content: space-between;
     gap: 1rem;
+    /* flex-wrap: wrap; */
   }
 
   .info {
@@ -153,6 +154,26 @@ const printInfo = [ email, phone, linkedUrl].filter(Boolean).join(`&bull`)
   }
 
 
+  @media (max-width: 700px) {
+    .container {
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+    }
+    .info {
+        padding: 0;
+        align-items: center;
+    }
+
+    .info h1 {
+        text-align: center;
+    }
+
+    .info h2 {
+        text-wrap: pretty;
+        text-align: center
+    }
+
+  }
   
 
 </style>

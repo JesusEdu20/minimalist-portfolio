@@ -51,6 +51,9 @@ const profilesInfo = profiles.map(({ network, url }) => {
 <footer class="no-print">
    Pulsa <kbd>ctrl</kbd> + <kbd>k</kbd> para abrir la paleta de comandos
 </footer>
+<footer class="no-print mobile-version">
+     <kbd>ctrl</kbd>
+ </footer>
 <ninja-keys
 placeholder = "Buscar Comando"
 hideBreadCrumbs
@@ -64,7 +67,7 @@ data-info={JSON.stringify(profilesInfo)}
     if(ninja != null){
         const info = ninja.getAttribute('data-info') ?? '[]'
         const parsedInfo = JSON.parse(info)
-        console.log(parsedInfo)
+        
         const data = parsedInfo.map((item:any) => {
             return {
                 ... item,
@@ -89,6 +92,11 @@ data-info={JSON.stringify(profilesInfo)}
             ...data
         ]
     }
+
+    const ctrlBtnForMobile = document.querySelector('.mobile-version')
+    ctrlBtnForMobile?.addEventListener('click', () => {
+        ninja?.open()
+    })
 </script>
 
 <style>
@@ -130,5 +138,33 @@ data-info={JSON.stringify(profilesInfo)}
         padding: 2px 4px;
         font-size: 12px;
         
+    }
+    .mobile-version {
+        display: none;
+    }
+
+    @media (max-width:700px) {
+        footer {
+            display: none;
+        }
+        
+        .mobile-version {
+            right: 0;
+            margin: 5px 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 40px;
+            height: 40px;
+            background-color: #dddddd;
+            border-radius: 10px;
+        }
+
+        kbd {
+            
+            padding: 2px 4px;
+            font-size: 10px;
+            display: block;
+        }
     }
 </style>

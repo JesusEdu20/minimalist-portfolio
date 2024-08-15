@@ -1,6 +1,125 @@
 ---
 import Section from "../section.astro";
+import { education } from '@cv'
+
 ---
 <Section title="Education">
-
+    <ul>
+        {
+            education.map(( { institution, url, area, studyType, startDate, endDate, courses } ) => {
+                const startYear = new Date(startDate).getFullYear()
+                const endYear = endDate !== null ? new Date(endDate).getFullYear() : 'Actual'
+                const years = `${startYear} - ${endYear}`
+                return(
+                    <li>
+                        <article>
+                            <header>
+                                <div>
+                                    <h3><a href={url} target="_blank" title={`Visitar ${institution}`} rel="noopener noreferrer">{ institution }</a></h3>
+                                    <div class="course-list-container">
+                                        <h4 class="education-area-item">{ area }</h4>
+                                        <div class="tooltip-courses">
+                                            <p>Cursos aprobados</p>
+                                            <ul>
+                                                {
+                                                    courses.map(course => {
+                                                        return (
+                                                            <li>{course}</li>
+                                                        )
+                                                    })
+                                                }
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                               
+                                <time>
+                                    {years}
+                                </time>
+                            </header>
+                        </article>
+                    </li>
+                )    
+            })
+        }
+    </ul>
 </Section>
+
+<style>
+    ul {
+     display: flex;
+     flex-direction: column;
+     gap: 32px;
+    }
+ 
+    article h3 {
+      font-weight: 500;
+      color: #111;
+    }
+ 
+    article h4 {
+     color: #222;
+     font-weight: 400;
+    }
+ 
+    header {
+     position: relative;
+     display: flex;
+     justify-content: space-between;
+     align-items: flex-start;
+    }
+
+    header div h3 a:hover {
+        text-decoration: underline;
+    }
+ 
+    time {
+     color: #555;
+     font-size: 0.85rem;
+ 
+    }
+    .course-list-container{
+        display: inline-block;
+    }
+
+    .course-list-container:hover .tooltip-courses{
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .education-area-item{
+        cursor: pointer;
+    }
+    .tooltip-courses {
+        opacity: 0;
+        visibility: hidden;
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        border: 1px solid rgb(41, 41, 41) ;
+        border-radius: 6px;
+        padding: 10px;
+        backdrop-filter: blur(20px) !important;
+        transition: opacity 0.5s ease, transform 0.5s ease, visibility 0.5s ease;
+        gap: 20px;
+        left: 0;
+    }
+
+    .tooltip-courses p{
+    }
+    .tooltip-courses ul{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        display: inline-block;
+    }
+    .tooltip-courses li {
+       
+    }
+ </style>
+ <script>
+    
+ </script>

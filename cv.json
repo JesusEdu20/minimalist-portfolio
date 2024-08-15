@@ -72,18 +72,24 @@
         "Awarded 'Volunteer of the Month'"
       ]
     }],
-    "education": [{
-      "institution": "University",
+    "education": [
+    {
+      "institution": "Instituto Universitario IUJO",
       "url": "https://www.iujobarquisimeto.edu.ve/",
-      "area": "Software Development",
+      "area": "Informática",
       "studyType": "Bachelor",
-      "startDate": "2024-00-00",
+      "startDate": "2024-01-22",
       "endDate": null,
       "score": null,
       "courses": [
+        "DB1101 - Basic SQL",
+        "DB1101 - Basic SQL",
         "DB1101 - Basic SQL"
+        
       ]
-    }],
+      
+    }
+  ],
     "awards": [{
       "title": "Award",
       "date": "2014-11-01",
