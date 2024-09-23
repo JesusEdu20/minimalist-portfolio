@@ -387,6 +387,21 @@
         "POO"
       ],
       "url": "https://jesusedu20.github.io/Jungle-boy-game/"
+    },
+    {
+      "isActive": true,
+      "name": "TareasBot",
+      "startDate": "2024-01-08",
+      "endDate": null,
+      "description": "Desarrollé un bot de Telegram para organizar tareas y mejorar la comunicación entre estudiantes, voceros y profesores, usando bases de datos de Notion.",
+      "highlights": [
+        "Express",
+        "Node Js",
+        "Typescript",
+        "JavaScript",
+        "Astro"
+      ],
+      "url": "https://t.me/voceriabot"
     }
     ]
   }
