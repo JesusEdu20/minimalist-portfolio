@@ -322,6 +322,20 @@
         "keywords": [
           "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
         ]
+    },
+    {
+      "name": "C#",
+      "level": "Intermedio",
+      "keywords": [
+        "Control de Versiones", "Colaboración", "Código Fuente", "Git"
+      ]
+    },
+    {
+      "name": "SQL",
+      "level": "básico",
+      "keywords": [
+        "Control de Versiones", "Colaboración", "Código Fuente", "Git"
+      ]
     }
   
     ],
@@ -402,6 +416,18 @@
         "Astro"
       ],
       "url": "https://t.me/voceriabot"
+    },
+    {
+      "isActive": true,
+      "name": "videogame-development-kit",
+      "startDate": "2025-01-01",
+      "endDate": "2025-01-01",
+      "description": "Este proyecto es una implementación de un sistema interactivo y dinámico para la creación de entornos gráficos y controlados.",
+      "highlights": [
+        "HTML5",
+        "JavaScript"
+      ],
+      "url": "https://github.com/JesusEdu20/videogame-development-kit"
     }
     ]
   }
